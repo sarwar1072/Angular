@@ -1,0 +1,23 @@
+<h1>{{"Title: "+getTitle()}}</h1>
+<!-- <app-blog-post></app-blog-post> -->
+
+<!-- <p>from app section and above is a lorem paragraph</p> -->
+<!-- <p>{{number}}</p> -->
+
+<!-- <button (click)="onClick1($event)">add</button>
+<button (click)="onClick2($event)">subtract</button> -->
+
+<!-- <img src="{{imgesrc}}"> -->
+<ul>
+  <li *ngFor="let blog of blogs">
+   {{blog}}
+  </li>
+</ul>
+<p>List of blogs </p>
+
+<div *ngFor="let blogs of blogpost">
+  <h3>{{blogs.name}}</h3>
+  <p>{{blogs.id}}</p>
+  <p>{{blogs.Author}}</p>
+</div>
+
